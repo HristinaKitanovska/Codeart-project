@@ -1,0 +1,31 @@
+@import '../../style/assets/scss/variables';
+
+.default-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+    gap: 30px;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.money-guarantee {
+    display: flex;
+    flex-direction: row;
+}
+
+.money-guarantee > img {
+    align-self: center;
+    margin-right: 15px;
+}
+
+.money-guarantee-text {
+    text-align: center;
+    line-height: 20px;
+}

@@ -1,0 +1,36 @@
+body, html {
+    font-size: 16px;
+    font-family: 'Plus-Jakarta-Sans-Regular';
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Plus-Jakarta-Sans-Bold' !important;
+}
+
+h4, h5, h6 {
+    font-family: 'Plus-Jakarta-Sans-Regular';
+};
+
+// a {
+//     text-decoration: none !important;
+//     font-weight: 400;
+//     font-size: 1.2rem;
+//     color: $gray-500;
+// }
+
+// .no-scrolbar::-webkit-scrollbar {
+//     display: none;
+// }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+// .no-scrolbar {
+//     -ms-overflow-style: none;  /* IE and Edge */
+//     scrollbar-width: none;  /* Firefox */
+// }

@@ -1,0 +1,17 @@
+@import '../../style/assets/scss/variables';
+
+.text-regular {
+    @include pjs-regular;
+}
+
+.text-bold {
+    @include pjs-bold;
+}
+
+.text-light {
+    @include pjs-light;
+}
+
+.multi-style-text > div > p {
+    margin: 0;
+}

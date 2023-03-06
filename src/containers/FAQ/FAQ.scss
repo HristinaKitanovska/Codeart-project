@@ -1,0 +1,40 @@
+
+
+.dropdowns-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 30px;
+}
+
+.dropdown-section {
+    // background-color: violet;
+    width: 1170px;
+    border-radius: 15px; // ??
+    border: 2px solid #549663;
+}
+
+.dropdown-section.active h3 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.dropdown-title {
+    line-height: 30px;
+    padding: 20px 20px 20px 30px;
+    margin: 0px auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.dropdown-content {
+    border-radius: 0px 0px 15px 15px; 
+}
+
+.dropdown-content > p {
+    line-height: 28px;
+    padding: 30px 20px 20px 20px;
+}
+
+.faq-title {
+    line-height: 52px;
+}

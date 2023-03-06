@@ -1,0 +1,53 @@
+@import '../../style/assets/scss/variables';
+
+.kiki {
+    @include text-red;
+    background-color: rebeccapurple;
+}
+
+.header-img {
+    position: relative;
+}
+
+.header-text {
+    width: 1170px;
+    height: 360px;
+    left: 375px;
+    top: 85px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+}
+
+.header-title {
+    font-size: 62px;
+    line-height: 74px;
+    width: 653px;
+    font-weight: 500;
+    @include text-black;
+    margin: 0px;
+}
+
+.green-header-title {
+    font-weight: 800;
+    @include text-lime;
+}
+
+.dark-header-text {
+    font-weight: 800;
+    color: black;
+}
+
+.header-small-text {
+    font-size: 36px;
+    line-height: 46px;
+    width: 653px;
+    font-weight: 400;
+    @include text-black;
+    margin: 0px;
+    font-weight: 400;
+}

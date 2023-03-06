@@ -1,0 +1,49 @@
+@import '../../style/assets/scss/_variables.scss';
+
+.green-delimiter {
+    @include bg-lime;
+    @include defaulFlex($flex-direction: column);
+
+    text-align: center;
+    width: 1920px;
+    height: 242px;
+    position: relative;
+}
+
+.delimiter-text {
+    gap: 10px;
+    @include defaulFlex($flex-direction: column, $padding: 50px 0px 80px);
+}
+ 
+.delimiter-text > p {
+    margin: 0;
+}
+
+.experience {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    @include text-white; 
+    @include pjs-regular;
+}
+
+.result {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    @include text-white;
+    @include pjs-bold;
+}
+.bottom-arrow {
+    background-color: white;
+    position: absolute;
+    margin-top: 242px;
+    border-radius: 50%;
+    @include defaulFlex();
+}
+
+.bottom-arrow > img {
+    min-height: 50px;
+    min-width: 50px;
+    padding: 15px;
+}

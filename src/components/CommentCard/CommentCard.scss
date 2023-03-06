@@ -1,0 +1,24 @@
+@import '../../style/assets/scss/variables';
+
+.comment-card-container {
+    padding: 50px 30px 20px 30px;
+    background-color: white;
+    line-height: 28px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    margin: 0px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.stars > p {
+    margin-right: auto;
+}

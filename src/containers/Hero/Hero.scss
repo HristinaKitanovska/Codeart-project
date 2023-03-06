@@ -1,0 +1,10 @@
+@import '../../style/assets/scss/variables';
+
+.kiki {
+    @include text-red;
+    background-color: rebeccapurple;
+}
+
+span {
+    background-color: black;
+}

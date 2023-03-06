@@ -1,0 +1,14 @@
+@import '../../style/assets/scss/variables';
+
+.usage-details-box {
+    @include defaulFlex($flex-direction: column);
+    gap: 15px;
+    flex: 35%; //new
+    max-width: 50%; // new
+    margin-bottom: 40px;
+    align-self: flex-start
+}
+
+.usage-details-img {
+    border-radius: 15px;
+}

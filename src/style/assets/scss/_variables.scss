@@ -1,0 +1,187 @@
+// MARK: = colors
+$white: #fff;
+$gray-300: #F1F0F5;
+
+$lime: #549663;
+$yellow: #FFD800;
+$beige: #F0D8A8;
+$red: #D43B4A;
+$black: #363636;
+$lime-light: #ACB6BF;
+$grey-light: #F7F7F7;
+
+
+// MARK: - font-family
+@mixin pjs-light {
+    font-family: 'Plus-Jakarta-Sans-Light';
+}
+
+@mixin pjs-regular {
+    font-family: 'Plus-Jakarta-Sans-Regular';
+}
+
+@mixin pjs-bold {
+    font-family: 'Plus-Jakarta-Sans-Bold';
+}
+
+@mixin bg-gray-300 {
+    background-color: $gray-300;
+}
+
+@mixin bg-gray-500 {
+    background-color: $gray-500;
+}
+
+@mixin bg-lime {
+    background-color: $lime;
+}
+
+@mixin bg-beige {
+    background-color: $beige;
+}
+
+@mixin bg-yellow {
+    background-color: $yellow;
+}
+
+@mixin text-gray-300 {
+    color: $gray-300;
+}
+
+@mixin text-red {
+    color: $red
+}
+
+@mixin box-shadow-1{
+    box-shadow: 0px 0px 10px #1B1C201A;
+}
+@mixin box-shadow-2 {
+    box-shadow: 0px 10px 15px #1B1C201A;
+}
+@mixin box-shadow-3 {
+    box-shadow: 0px 10px 30px #42596529;
+}
+
+@mixin defaulFlex(
+    $flex-direction: row, 
+    $align-items: center,
+    $justify-content: center,
+    $padding: 0px
+) {
+    display: flex;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    padding: $padding;
+}
+
+.text-red {
+    color: $red;
+}
+
+@mixin text-lime {
+    color: $lime;
+}
+
+@mixin text-left {
+    text-align: left;
+}
+
+.text-lime {
+    color: $lime;
+}
+
+@mixin text-black {
+    color: $black;
+}
+
+.text-black {
+    color: $black;
+}
+
+@mixin text-white {
+    color: $white;
+}
+
+@mixin bg-grey-light {
+    background-color: $grey-light;
+}
+
+.text-white {
+    color: $white;
+}
+
+.size-40 {
+    font-size: 40px;
+}
+
+.size-50 {
+    font-size: 50px;
+}
+
+.size-62 {
+    font-size: 62px;
+}
+
+.size-36 {
+    font-size: 36px;
+}
+
+.size-22 {
+    font-size: 22px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-24 {
+    font-size: 24px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-lime {
+    background-color: $lime;
+}
+
+.bg-beige {
+    background-color: $beige;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.bg-lime-light {
+    background-color: $lime-light;
+}
+
+.bg-grey-300 {
+    background-color: $gray-300;
+}
+
+.text-left {
+    text-align: left;
+    align-self: flex-start;
+}
+
+.text-center {
+    text-align: center;
+    align-self: center;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
